@@ -1,0 +1,27 @@
+{
+  "name": "tpsreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepharrside/tpsReact.git"
+  },
+  "author": "J. Pharr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thepharrside/tpsReact/issues"
+  },
+  "homepage": "https://github.com/thepharrside/tpsReact#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "history": "^4.6.3",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "react": "^15.6.1",
+    "react-router-dom": "^4.1.2"
+  }
+}
