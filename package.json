@@ -1,36 +1,29 @@
 {
   "name": "tpsreact",
-  "version": "1.0.0",
-  "description": "tpsReact",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thepharrside/tpsReact.git"
-  },
-  "author": "J. Pharr",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thepharrside/tpsReact/issues"
-  },
-  "homepage": "https://github.com/thepharrside/tpsReact#readme",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "babel": "^6.23.0",
-    "bootstrap": "^3.3.7",
-    "es6": "0.0.7",
-    "es7": "^1.0.1",
-    "history": "^4.6.3",
-    "jquery": "^3.2.1",
-    "lodash": "^4.17.4",
+    "less": "^2.7.2",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.1",
     "react-dom": "^15.6.1",
-    "react-modules": "^1.0.8",
-    "react-router": "^4.1.2",
-    "react-router-dom": "^4.1.2",
-    "webpack": "^3.3.0",
-    "webpack-dev-server": "^2.6.0"
+    "react-page-layout": "^0.9.6",
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "compile-less": "grunt compile-less",
+    "watch-less": "grunt watch"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "less-plugin-autoprefix": "^1.5.1",
+    "less-plugin-clean-css": "^1.5.1"
   }
 }
